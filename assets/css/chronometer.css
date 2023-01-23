@@ -185,6 +185,10 @@ body {
 
 
 @media (max-width: 414px){
+    .carousel{
+        height: 60vh;
+    }
+    
     .carousel-caption{
         font-size: 1em;
     }
