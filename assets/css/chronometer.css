@@ -1,0 +1,211 @@
+body {
+    background-image: url(../images/body-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar .container-fluid .navbar-brand {
+    color: #c4e6fe;
+    padding-right: 20px;
+    font-family: "Lucida Handwriting";
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #c4e6fe;
+    padding-inline: 20px;
+}
+
+.carousel {
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+    align-content: center;
+    height: 70vh;
+    width: 60vw;
+    opacity: 100%;
+}
+
+.carousel-inner {
+    block-size: inherit;
+}
+
+.carousel-item {
+    height: inherit;
+}
+
+.carousel-body {
+    height: 75%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -10px;
+    height: 25%;
+    font-family: "Agency FB";
+    font-size: 2.6em;
+    color: lightblue;
+}
+
+#Clock {
+    padding-top: 15%;
+    display: block;
+    font-size: 4em;
+    font-family: "Agency FB";
+    color: lightblue;
+    margin: auto;
+    text-align: center;
+}
+
+
+#Stopwatch {
+    padding-top: 3%;
+    display: block;
+    font-size: 4em;
+    font-family: "Monotype Corsiva";
+    color: lightblue;
+    margin: auto;
+    text-align: center;
+}
+
+#Timer {
+    padding-top: 3%;
+    display: block;
+    font-size: 4em;
+    font-family: "Agency FB";
+    color: lightblue;
+    margin: auto;
+    text-align: center;
+}
+
+.btn-s-r {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.btn-s{
+    margin-right: 1.5em;
+}
+
+.btn-r{
+    margin-left: 1.5em;
+}
+
+#timer-data {
+    color: #c4e6fe;
+    font-size: inherit;
+    background: transparent;
+    border: none;
+}
+
+.Timer-time {
+    color: #c4e6fe;
+    background: transparent;
+    border: none;
+    width: 21%;
+}
+
+.card {
+    color: #c4e6fe;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    align-content: center;
+    width: 60vw;
+    opacity: 100%;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 4vh;
+    color: #c4e6fe;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 1150px){
+    .carousel-caption{
+        font-size: 2em;
+    }
+    
+    #Clock {
+      font-size: 3em;
+    }
+
+    #Stopwatch {
+        font-size: 3em;
+    }
+
+    #Timer {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 800px){
+    .carousel-caption{
+        font-size: 1.5em;
+    }
+    
+    #Clock {
+      font-size: 2em;
+    }
+
+    #Stopwatch {
+        font-size: 2em;
+    }
+
+    #Timer {
+        font-size: 2em;
+    }
+    .footer{
+        font-size: 0.6em;
+        height: 3vh;
+    }
+
+}
+
+
+@media (max-width: 414px){
+    .carousel-caption{
+        font-size: 1em;
+    }
+    
+    #Clock {
+      font-size: 1.5em;
+    }
+
+    #Stopwatch {
+        font-size: 1.5em;
+    }
+
+    #Timer {
+        font-size: 1.5em;
+    }
+    .btn-s{
+        margin-right: 1em;
+        font-size: 0.7em;
+    }
+    .btn-r{
+        margin-left: 1em;
+        font-size: 0.7em;
+    }
+}
